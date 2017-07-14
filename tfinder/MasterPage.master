@@ -1,0 +1,103 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+  <link href="layout/styles/featured_slide.css" rel="stylesheet" />
+<link href="layout/styles/forms.css" rel="stylesheet" />
+<link href="layout/styles/layout.css" rel="stylesheet" />
+<link href="layout/styles/navi.css" rel="stylesheet" />
+<link href="layout/styles/tables.css" rel="stylesheet" />
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+<head runat="server">
+    <title></title>
+    
+</head>
+
+<body style ="background-image: url('images1/1758714.jpg');">
+    <form id="form1" runat="server">
+    <div  >
+       <div class="wrapper col1">
+  <div id="header">
+    <div id="logo">
+      <h1><a href="index.html">To-let Finder</a></h1>
+      <p  style= "background-color:white; width: 231px; height: 17px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Get house Quicker</p>
+    </div>
+    <div id="topnav">
+      <ul>
+        <li class=><a href="login.aspx">Home</a></li>
+        <li><a href="login.aspx">Login</a></li>
+        <li><a href="registration.aspx">Registration</a></li>
+        <li><a href="#">About Us</a>
+          
+        
+      </ul>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col2">
+  <div id="featured_slide">
+    <div id="featured_content">
+      <ul>
+        <li><img src="imgother/1.png" alt="" />
+          <div class="floater">
+            <h2>About This Site !</h2>
+            <p><span style="font-size:14.0pt;line-height:107%;
+font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:Calibri;
+mso-fareast-theme-font:minor-latin;mso-ansi-language:EN-IN;mso-fareast-language:
+EN-US;mso-bidi-language:AR-SA">we deal with the problem of house owners and tenants. House owner specifies details about the city, address of the house, contact number, rent, and number of rooms available for a portion etc. which are needed for a tenant. Tenants search for the houses which are available in his city, checks the specifications of the houses, find the house which is apt for his requirements.&nbsp; GO GET HOUSE QUICKER..</span></p>
+          </div>
+        </li>
+        <li><img src="images/demo/2.gif" alt="" />
+          <div class="floater">
+            <h2>Cursus penati saccum ut curabitur nulla.</h2>
+            <p>Temperinte interdum sempus odio urna eget curabitur semper convallis nunc laoreet. Nullain convallis ris elis vest liberos nis diculis feugiat in rutrum. Suspendreristibulumfaucibulum lobortor quis tortortor ris sapien sce enim et volutpat sus. Urnaretiumorci orci fauctor leo justo nulla cras ridiculum&hellip;</p>
+            <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
+          </div>
+        </li>
+        <li><img src="images/demo/3.gif" alt="" />
+          <div class="floater">
+            <h2>Cursus penati saccum ut curabitur nulla.</h2>
+            <p>Temperinte interdum sempus odio urna eget curabitur semper convallis nunc laoreet. Nullain convallis ris elis vest liberos nis diculis feugiat in rutrum. Suspendreristibulumfaucibulum lobortor quis tortortor ris sapien sce enim et volutpat sus. Urnaretiumorci orci fauctor leo justo nulla cras ridiculum&hellip;</p>
+            <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <a href="javascript:void(0);" id="featured-item-prev"><img src="layout/images/prev.png" alt="" /></a> <a href="javascript:void(0);" id="featured-item-next"><img src="layout/images/next.png" alt="" /></a> </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col3">
+  <div id="container">
+    <div class="homepage">
+     <asp:ContentPlaceHolder id="login" runat="server" >
+         
+                 
+                 <td>&nbsp;</td>
+                 <td>&nbsp;</td>
+             </tr>
+             <tr>
+                 <td class="auto-style2">&nbsp;</td>
+                 <td class="auto-style3">&nbsp;</td>
+                 <td>&nbsp;</td>
+                 <td>&nbsp;</td>
+             </tr>
+             <tr>
+                 <td class="auto-style2">&nbsp;</td>
+                 <td class="auto-style3">&nbsp;</td>
+                 <td>&nbsp;</td>
+                 <td>&nbsp;</td>
+             </tr>
+         </table>
+    </asp:ContentPlaceHolder>
+    </div>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<!-- ####################################################################################################### -->
+    </div>
+    </form>
+</body>
+</html>
